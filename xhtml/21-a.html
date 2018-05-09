@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>伪类</title>
+	<style type="text/css">
+		a:LINK{
+			text-decoration: underline;
+			color: blue;
+		}
+
+		a:VISITED{
+			color:gray;
+		}
+
+		a:hover{
+			color: red;
+		}
+
+		a:active{
+			color:green;
+		}
+		
+	</style>
+</head>
+<body>
+	<div>CSS允许我们针对a标签的4种状态设置各自的css特性，叫做css伪类。<br/>
+		1. active一般不必写
+		2. 一定注意，顺序是LVHA
+		3. a:link可以简写为a
+	</div>
+	<a href="#">空链接</a>
+	<a href="#">空链接</a>
+	<a href="#">空链接</a>
+	<a href="#">空链接</a>
+	<a href="#">空链接</a>
+</body>
+</html>

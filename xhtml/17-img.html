@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>img到底是块还是内联</title>
+	<style type="text/css">
+		img{
+			width: 200px;
+			height: 200px;
+			display:block;
+			margin:0px;
+			float:left; 
+		}
+		div{
+			width: 400px;
+			height: 200px;
+			border: 1px solid blue;
+			clear: left;
+		}
+	</style>
+</head>
+<body>
+	<img src="small.jpg"/>
+	<img src="small.jpg"/>
+	<div>img是一个特殊的内联元素，同时是内联替换元素，替换元素是可以设置宽和高的</div>
+</body>
+</html>
