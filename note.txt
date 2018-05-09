@@ -2,10 +2,21 @@
 左浮元素，左margin是定义的2倍
 右浮元素，有margin是定义的2倍
 
-颜色的表示：
+（1）颜色的表示：
 1. 颜色用数字来表示
 2. 颜色由3原色组成的，红red，绿green，蓝blue
 3. 3原色各在[0-255]之间变化
 
 综上：本质是组合3原色
-1. 
+1. 用16进制组合[0-255]--->[00, FF]，#F81245
+2. 用10进制来组合，如rgb(255, 234, 12);
+3. html提供常用颜色的名称，如orange, pink, purple, red
+4. #EEEEEE---->#EEE，当6个字符一样时，可以简写为3个字符
+
+（2）尺寸的表示，见 ./xhtml/23-size.html
+
+（3）CSS画圆角，见 ./xhtml/24-radius.html
+
+（4）相对定位与绝对定位，见 ./xhtml/25-position.html
+
+（5）overflow溢出处理，见 ./xhtml/26-overflow.html
